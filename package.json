@@ -1,0 +1,37 @@
+{
+  "name": "neaticons-server",
+  "version": "1.0.0",
+  "description": "Server for serving icon styles remotely",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./server/server.js",
+    "start": "node ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iiiked/neaticons-server.git"
+  },
+  "author": "iiiked",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iiiked/neaticons-server/issues"
+  },
+  "homepage": "https://github.com/iiiked/neaticons-server#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "dotenv": "^6.2.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.10"
+  }
+}
